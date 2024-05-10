@@ -1,0 +1,25 @@
+*.pyc
+
+# Ignore the virtual environment directory
+
+# Ignore the Django media directory (if you're using it)
+
+
+# Ignore staticfiles directory (if using collectstatic)
+
+# Ignore database files (if using SQLite)
+*.sqlite3
+
+# Ignore environment-specific settings files
+.env
+
+# Ignore any local development settings
+local_settings.py
+Lib/
+# Ignore IDE specific files
+.vscode/
+*.pydevproject
+.idea/
+*.swo
+*.swp
+*.iml
